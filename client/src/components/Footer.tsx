@@ -69,7 +69,7 @@ const Footer = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <p className="text-gray-500 text-sm">
-            © 2024 Infomizer. All rights reserved.
+            © 2025 Infomizer. All rights reserved.
           </p>
         </motion.div>
       </div>

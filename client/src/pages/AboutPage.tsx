@@ -23,12 +23,12 @@ const AboutPage = () => {
     {
       name: "Abhay Negi",
       role: "Industry Mentor",
-      company: "Senior SDE at Amazon"
+      expertise: "Distributed Systems & Microservices"
     },
     {
       name: "Rahul Maurya",
       role: "Industry Mentor", 
-      company: "Tech Lead at Microsoft"
+      expertise: "Cloud Architecture & DevOps"
     }
   ];
 
@@ -145,7 +145,7 @@ const AboutPage = () => {
                   </div>
                   <h3 className="text-lg font-semibold text-white mb-1">{mentor.name}</h3>
                   <p className="text-green-400 font-medium mb-2">{mentor.role}</p>
-                  <p className="text-gray-300 text-sm">{mentor.company}</p>
+                  <p className="text-gray-300 text-sm">{mentor.expertise}</p>
                 </div>
               </motion.div>
             ))}

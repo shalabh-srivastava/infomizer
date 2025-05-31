@@ -9,10 +9,12 @@ import AboutPage from "@/pages/AboutPage";
 import ResourcesPage from "@/pages/ResourcesPage";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import CursorGlow from "@/components/CursorGlow";
 
 function Router() {
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-gray-900 relative">
+      <CursorGlow />
       <Navigation />
       
       <Switch>

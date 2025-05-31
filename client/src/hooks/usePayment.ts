@@ -12,7 +12,7 @@ export const usePayment = () => {
 
   const initiatePayment = (course: Course) => {
     const options = {
-      key: process.env.RAZORPAY_KEY_ID || process.env.VITE_RAZORPAY_KEY_ID || "rzp_test_1234567890",
+      key: import.meta.env.VITE_RAZORPAY_KEY_ID || "rzp_test_1234567890",
       amount: course.price * 100, // Amount in paise
       currency: "INR",
       name: "360 Interview Preparation",

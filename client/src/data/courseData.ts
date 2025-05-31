@@ -37,7 +37,7 @@ export const courses: Course[] = [
     originalPrice: 9999,
     discount: "30% OFF",
     rating: 4.9,
-    studentsEnrolled: 1250,
+    studentsEnrolled: 150,
     duration: "30 Days",
     modules: 9,
     features: [
@@ -47,7 +47,7 @@ export const courses: Course[] = [
       "Collections Framework mastery",
       "JDBC & Database Integration",
       "Multithreading & Concurrency",
-      "Java 8+ Modern Features",
+      "Java 17+ Modern Features",
       "E-Commerce Backend Project"
     ],
     curriculum: [
@@ -119,12 +119,14 @@ export const courses: Course[] = [
         assignment: "Multithreaded Inventory System"
       },
       {
-        title: "Java 8+ Features",
+        title: "Java 17+ Features",
         topics: [
           "Lambda Expressions",
           "Functional Interfaces (Predicate, Consumer)",
           "Stream API (map, filter, reduce)",
-          "Optional Class & Date/Time API"
+          "Optional Class & Date/Time API",
+          "Records and Pattern Matching",
+          "Text Blocks and Switch Expressions"
         ],
         assignment: "Data Analysis with Streams"
       },
@@ -157,7 +159,7 @@ export const courses: Course[] = [
     originalPrice: 9999,
     discount: "30% OFF",
     rating: 4.8,
-    studentsEnrolled: 2100,
+    studentsEnrolled: 180,
     duration: "30 Days",
     modules: 9,
     features: [
@@ -270,7 +272,7 @@ export const courses: Course[] = [
     originalPrice: 9999,
     discount: "30% OFF",
     rating: 4.9,
-    studentsEnrolled: 890,
+    studentsEnrolled: 120,
     duration: "30 Days",
     modules: 9,
     features: [

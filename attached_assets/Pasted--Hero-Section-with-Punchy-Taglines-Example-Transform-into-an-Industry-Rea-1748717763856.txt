@@ -1,0 +1,146 @@
+    Hero Section with Punchy Taglines
+
+        Example:
+
+            "Transform into an Industry-Ready Coder in 30 Days.
+            Learn from IIT/ISRO Mentors. 100% Placement Support."
+
+        Add: Limited-seat counter + "Free Trial Class" CTA button.
+
+    Differentiation Grid
+    Your Competitors	Infomizer Advantage
+    Generic projects	Capstones from Flipkart/Amazon Tech Leads
+    Video tutorials	Live 1:1 Mentorship + Offline Labs
+    No job support	Guaranteed Internship Interviews
+
+    Industry-Aligned Syllabus
+
+        Display expandable modules (like you created) with:
+
+            ⏰ Time per topic (e.g., "OOP: 8 hrs theory + 12 hrs practical")
+
+            🛠 Tools taught (e.g., Java: Git, Maven, JUnit, MySQL)
+
+            🏆 Project snapshots (e.g., "E-Commerce Backend" GIF/video).
+
+    Instructor Showcase
+
+        Photos + credentials:
+
+            *"Rahul Sharma | Ex-Microsoft, 10+ yrs in Java
+            Mentored 500+ students at TCS, Infosys"*
+
+        Include short intro videos (30 sec) of teachers.
+
+Trust-Building Elements
+
+    Placement Tracker (Live Dashboard)
+
+        Dynamic stats:
+
+            📊 "87% Placement Rate within 3 months"
+
+            💼 "Highest Package: ₹18 LPA @ Amazon"
+
+            🌍 "Hired at: Google, Flipkart, Paytm, Wipro"
+
+        Add student photos with offer letters.
+
+    Student Success Stories
+
+        Video testimonials + quotes:
+
+            *"Infomizer’s ML course helped me build Crop Prophet –
+            now deployed in 100+ Punjab farms!"*
+            - Priya K., Placed at Agritech Startup
+
+    Scholarship & Financing
+
+        "Padho India Initiative":
+
+            Merit-based scholarships (up to 50% off)
+
+            EMI options: "₹2,999/month"
+
+        Calculator widget: "See your scholarship eligibility".
+
+Interactive Elements
+
+    Skill Assessment Quiz
+
+        "Are you internship-ready? Take 5-min test →"
+
+            Result: "Your Java level: Beginner. Recommended: Core JAVA Course"
+
+    Free Resource Library
+
+        Gated content (email capture):
+
+            📚 *"Python Cheat Sheets + 50 LeetCode Problems"*
+
+            🎥 "Webinar: How to crack coding interviews"
+
+    Learning Experience Simulator
+
+        Interactive demo:
+
+            "Try our Python IDE" (Browser-based coding playground)
+
+            "Experience a Zoom Class Snippet" (5-min recorded lecture).
+
+Conversion Boosters
+
+    Course Comparison Tool
+
+        Let users compare:
+
+            Python vs. Java vs. ML (Syllabus, projects, career paths)
+
+            Output: "Based on your goals, we recommend: ______"
+
+    Live Chat with Current Students
+
+        "Talk to Aakash (Java Alumni @TCS):"
+
+            Real-time chat widget staffed by past learners.
+
+    Urgency & Scarcity
+
+        "🔴 Last 12 seats for July batch"
+
+        "🎯 Enroll by Sunday: Get 1:1 Resume Review (Worth ₹3000) FREE"
+
+Footer Essentials
+
+    FAQs
+
+        Examples:
+
+            "Is offline attendance compulsory?"
+
+            "Can I pay after placement?"
+
+            "Do you provide recorded sessions?"
+
+    Placement Partners Logos
+
+        Display 20+ company logos (Amazon, TCS, Byju’s, etc.)
+
+    Contact Options
+
+        Phone/WhatsApp: +91-XXXXXX-XXXX
+
+        Offline Centers: Map with addresses (e.g., "Infomizer Delhi: Nehru Place, Tower B")
+
+Bonus: Post-Launch Ideas
+
+    Student Leaderboard: Show top capstone projects (voting feature).
+
+    Coding Challenge Portal: Monthly contests with prizes (sponsored by partners).
+
+    Parent Portal: Vernacular content explaining career ROI.
+
+    💡 Pro Tip: Add a "Syllabus Download" CTA – capture leads by offering full PDF outlines.
+
+Final Homepage Flow:
+Hero → Why Infomizer? → Courses → Instructor → Projects → Placements → Testimonials → Pricing → FAQ → Footer

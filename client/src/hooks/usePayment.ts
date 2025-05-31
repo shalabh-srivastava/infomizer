@@ -15,7 +15,7 @@ export const usePayment = () => {
       key: import.meta.env.VITE_RAZORPAY_KEY_ID || "rzp_test_1234567890",
       amount: course.price * 100, // Amount in paise
       currency: "INR",
-      name: "360 Interview Preparation",
+      name: "Infomizer",
       description: course.title,
       image: "/logo.png",
       handler: function (response: any) {

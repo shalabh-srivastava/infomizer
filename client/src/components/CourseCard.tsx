@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Course } from "@/data/courseData";
+import { Button } from "@/components/ui/button";
+import { useLocation } from "wouter";
 
 interface CourseCardProps {
   course: Course;
@@ -8,10 +10,16 @@ interface CourseCardProps {
 }
 
 const CourseCard = ({ course, onSelect, index }: CourseCardProps) => {
+  const [, setLocation] = useLocation();
+
+  const handleViewCourse = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setLocation(`/course/${course.id}`);
+  };
+
   return (
     <motion.div
-      className="gradient-border card-hover cursor-pointer"
-      onClick={() => onSelect(course.id)}
+      className="gradient-border card-hover"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -66,7 +74,7 @@ const CourseCard = ({ course, onSelect, index }: CourseCardProps) => {
             </div>
           </div>
 
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between mb-4">
             <div className="flex items-center space-x-2">
               <span className="text-2xl font-bold text-white">₹{course.price.toLocaleString()}</span>
               <span className="text-sm text-gray-500 line-through">₹{course.originalPrice.toLocaleString()}</span>
@@ -75,6 +83,13 @@ const CourseCard = ({ course, onSelect, index }: CourseCardProps) => {
               {course.discount}
             </span>
           </div>
+          
+          <Button 
+            onClick={handleViewCourse}
+            className="w-full bg-primary text-white hover:bg-blue-600 transition-colors"
+          >
+            View Course Details
+          </Button>
         </div>
       </div>
     </motion.div>

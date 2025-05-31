@@ -5,6 +5,7 @@ import { usePayment } from "@/hooks/usePayment";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ArrowLeft, Clock, Users, Star, CheckCircle, BookOpen, Award } from "lucide-react";
 
 const CourseDetailPage = () => {
@@ -125,41 +126,43 @@ const CourseDetailPage = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-4">
+                  <Accordion type="single" collapsible className="space-y-2">
                     {course.curriculum.map((module, index) => (
-                      <motion.div
-                        key={index}
-                        className="border border-gray-700 rounded-lg p-6 hover:border-gray-600 transition-colors"
-                        initial={{ opacity: 0, x: -20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
+                      <AccordionItem 
+                        key={index} 
+                        value={`module-${index}`}
+                        className="border border-gray-700 rounded-lg"
                       >
-                        <div className="flex items-center justify-between mb-3">
-                          <h3 className="text-lg font-semibold text-white">
-                            Module {index + 1}: {module.title}
-                          </h3>
-                          <Badge variant="secondary">
-                            Module {index + 1}
-                          </Badge>
-                        </div>
-                        <ul className="space-y-2">
-                          {module.topics.map((topic, topicIndex) => (
-                            <li key={topicIndex} className="flex items-start text-gray-300">
-                              <BookOpen className="mr-2 h-4 w-4 mt-1 text-primary flex-shrink-0" />
-                              <span className="text-sm">{topic}</span>
-                            </li>
-                          ))}
-                        </ul>
-                        {module.assignment && (
-                          <div className="mt-3 p-3 bg-blue-900/20 rounded-lg border border-blue-800">
-                            <span className="text-sm font-medium text-blue-300">
-                              Assignment: {module.assignment}
-                            </span>
+                        <AccordionTrigger className="px-6 py-4 text-left hover:no-underline">
+                          <div className="flex items-center justify-between w-full">
+                            <h3 className="text-lg font-semibold text-white">
+                              Module {index + 1}: {module.title}
+                            </h3>
+                            <Badge variant="secondary" className="ml-2">
+                              Module {index + 1}
+                            </Badge>
                           </div>
-                        )}
-                      </motion.div>
+                        </AccordionTrigger>
+                        <AccordionContent className="px-6 pb-6">
+                          <ul className="space-y-2 mb-4">
+                            {module.topics.map((topic, topicIndex) => (
+                              <li key={topicIndex} className="flex items-start text-gray-300">
+                                <BookOpen className="mr-2 h-4 w-4 mt-1 text-primary flex-shrink-0" />
+                                <span className="text-sm">{topic}</span>
+                              </li>
+                            ))}
+                          </ul>
+                          {module.assignment && (
+                            <div className="p-3 bg-blue-900/20 rounded-lg border border-blue-800">
+                              <span className="text-sm font-medium text-blue-300">
+                                Assignment: {module.assignment}
+                              </span>
+                            </div>
+                          )}
+                        </AccordionContent>
+                      </AccordionItem>
                     ))}
-                  </div>
+                  </Accordion>
                 </CardContent>
               </Card>
             </motion.div>
@@ -192,7 +195,7 @@ const CourseDetailPage = () => {
                     className="w-full bg-primary text-white py-3 px-6 text-lg font-semibold hover:bg-blue-600 mb-4"
                     size="lg"
                   >
-                    Enroll Now - Pay via Razorpay
+                    Enroll Now
                   </Button>
                   
                   <div className="space-y-4 text-sm text-gray-400">

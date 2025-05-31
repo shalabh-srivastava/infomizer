@@ -25,8 +25,8 @@ const Navigation = () => {
               <a href="/about" className="text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
                 About
               </a>
-              <a href="#" className="text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
-                Contact
+              <a href="/resources" className="text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
+                Resources
               </a>
               <button className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">
                 Sign In

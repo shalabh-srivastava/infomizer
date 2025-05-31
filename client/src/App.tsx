@@ -6,7 +6,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import HomePage from "@/pages/HomePage";
 import CourseDetailPage from "@/pages/CourseDetailPage";
 import AboutPage from "@/pages/AboutPage";
+import ResourcesPage from "@/pages/ResourcesPage";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 function Router() {
   return (
@@ -21,9 +23,12 @@ function Router() {
           />
         } />
         <Route path="/about" component={AboutPage} />
+        <Route path="/resources" component={ResourcesPage} />
         <Route path="/course/:courseId" component={CourseDetailPage} />
         <Route component={() => <div>404 Not Found</div>} />
       </Switch>
+      
+      <Footer />
     </div>
   );
 }

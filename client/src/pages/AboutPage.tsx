@@ -5,20 +5,17 @@ const AboutPage = () => {
     {
       name: "Suryaprakash Tiwari",
       role: "Lead Instructor",
-      expertise: "Full-Stack Development & System Design",
-      experience: "8+ years at Amazon, Microsoft"
+      expertise: "Full-Stack Development & System Design"
     },
     {
       name: "Suyeb Khan",
       role: "Senior Instructor",
-      expertise: "Machine Learning & Data Science",
-      experience: "6+ years at Google, Flipkart"
+      expertise: "Machine Learning & Data Science"
     },
     {
       name: "Mrityunjay Srivastava",
       role: "Backend Specialist",
-      expertise: "Java Enterprise & Microservices",
-      experience: "7+ years at Oracle, TCS"
+      expertise: "Java Enterprise & Microservices"
     }
   ];
 
@@ -110,9 +107,6 @@ const AboutPage = () => {
                 <div className="space-y-2">
                   <p className="text-gray-300 text-sm">
                     <span className="font-medium">Expertise:</span> {member.expertise}
-                  </p>
-                  <p className="text-gray-300 text-sm">
-                    <span className="font-medium">Experience:</span> {member.experience}
                   </p>
                 </div>
               </motion.div>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import CourseCard from "@/components/CourseCard";
+import TestimonialSlider from "@/components/TestimonialSlider";
 import { courses } from "@/data/courseData";
 
 interface HomePageProps {
@@ -115,35 +116,50 @@ const HomePage = ({ onCourseSelect, sidebarOpen }: HomePageProps) => {
             </p>
           </motion.div>
           
-          {/* Comparison Table */}
+          {/* Comparison Chart */}
           <motion.div 
-            className="mb-16 overflow-hidden rounded-lg border border-gray-700"
+            className="mb-16 max-w-4xl mx-auto"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <table className="w-full bg-gray-900">
-              <thead>
-                <tr className="bg-gray-800">
-                  <th className="py-4 px-6 text-left text-gray-300 font-semibold">Your Competitors</th>
-                  <th className="py-4 px-6 text-left text-primary font-semibold">Infomizer</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-t border-gray-700">
-                  <td className="py-4 px-6 text-gray-400">Generic projects</td>
-                  <td className="py-4 px-6 text-white font-medium">Capstones from Flipkart/Amazon Tech Leads</td>
-                </tr>
-                <tr className="border-t border-gray-700 bg-gray-800/50">
-                  <td className="py-4 px-6 text-gray-400">Video tutorials</td>
-                  <td className="py-4 px-6 text-white font-medium">Live 1:1 Mentorship + Offline Labs</td>
-                </tr>
-                <tr className="border-t border-gray-700">
-                  <td className="py-4 px-6 text-gray-400">No job support</td>
-                  <td className="py-4 px-6 text-white font-medium">Guaranteed Internship Interviews</td>
-                </tr>
-              </tbody>
-            </table>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gray-900 rounded-lg p-8 border border-gray-700">
+                <h3 className="text-xl font-bold text-gray-300 mb-6 text-center">Other Training Institutes</h3>
+                <div className="space-y-4">
+                  <div className="flex items-center text-red-400">
+                    <span className="mr-3">❌</span>
+                    <span>Generic projects</span>
+                  </div>
+                  <div className="flex items-center text-red-400">
+                    <span className="mr-3">❌</span>
+                    <span>Video tutorials</span>
+                  </div>
+                  <div className="flex items-center text-red-400">
+                    <span className="mr-3">❌</span>
+                    <span>No job support</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-gradient-to-br from-primary/20 to-blue-900/20 rounded-lg p-8 border border-primary">
+                <h3 className="text-xl font-bold text-primary mb-6 text-center">Infomizer</h3>
+                <div className="space-y-4">
+                  <div className="flex items-center text-green-400">
+                    <span className="mr-3">✅</span>
+                    <span>Capstones from Industry Experts</span>
+                  </div>
+                  <div className="flex items-center text-green-400">
+                    <span className="mr-3">✅</span>
+                    <span>Live 1:1 Mentorship + Offline Labs</span>
+                  </div>
+                  <div className="flex items-center text-green-400">
+                    <span className="mr-3">✅</span>
+                    <span>Job Interview Support</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </motion.div>
 
           {/* Student Success Stories */}
@@ -154,12 +170,7 @@ const HomePage = ({ onCourseSelect, sidebarOpen }: HomePageProps) => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <h3 className="text-2xl font-bold text-white mb-8">Student Success Stories</h3>
-            <div className="max-w-4xl mx-auto bg-gray-900 rounded-lg p-8 border border-gray-700">
-              <blockquote className="text-lg text-gray-300 italic mb-4">
-                "Infomizer's ML course helped me build Crop Prophet – now deployed in 100+ Punjab farms!"
-              </blockquote>
-              <cite className="text-primary font-semibold">- Astitva Bhatt, Placed at Agritech Startup</cite>
-            </div>
+            <TestimonialSlider />
           </motion.div>
         </div>
       </section>

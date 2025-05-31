@@ -1,0 +1,298 @@
+Core JAVA Course (30 Days)
+
+Objective: Master Java syntax, OOP principles, and real-world application development.
+Module 1: Java Fundamentals
+
+    Syntax basics (Variables, Keywords, Operators)
+
+    Primitive/Non-primitive Data Types
+
+    Control Flow (if-else, loops, switch)
+
+    Basic I/O (Scanner class)
+
+    Assignment: Student Grade Calculator
+
+Module 2: Object-Oriented Programming Core
+
+    Classes, Objects, Constructors
+
+    Inheritance (IS-A relationship)
+
+    Polymorphism (Method Overloading/Overriding)
+
+    Abstraction (Abstract Classes)
+
+    Interfaces and Multiple Inheritance
+
+Module 3: Exception Handling & Advanced OOP
+
+    Exception Hierarchy (Checked/Unchecked)
+
+    try-catch-finally blocks
+
+    Custom Exception Creation
+
+    Encapsulation (Access Modifiers)
+
+    Assignment: Banking System with Exception Handling
+
+Module 4: Java APIs & File Handling
+
+    String Manipulation (StringBuilder, StringBuffer)
+
+    I/O Streams (Byte/Character Streams)
+
+    File Operations (Read/Write/Delete)
+
+    Serialization/Deserialization
+
+Module 5: Collections Framework
+
+    List Interface (ArrayList, LinkedList)
+
+    Set Interface (HashSet, TreeSet)
+
+    Map Interface (HashMap, TreeMap)
+
+    Iterators and Comparators
+
+    Assignment: Library Management System
+
+Module 6: JDBC & Database Integration
+
+    JDBC Architecture (Drivers, Connections)
+
+    CRUD Operations with MySQL
+
+    PreparedStatement vs. Statement
+
+    Transaction Management
+
+Module 7: Concurrency & Multithreading
+
+    Thread Lifecycle (Creation via Thread/Runnable)
+
+    Synchronization (synchronized keyword)
+
+    Thread Pools (ExecutorService)
+
+    Assignment: Multithreaded Inventory System
+
+Module 8: Java 8+ Features
+
+    Lambda Expressions
+
+    Functional Interfaces (Predicate, Consumer)
+
+    Stream API (map, filter, reduce)
+
+    Optional Class & Date/Time API
+
+    Assignment: Data Analysis with Streams
+
+Module 9: Capstone Project
+
+    E-Commerce Backend Implementation
+
+        User Authentication (JWT)
+
+        Product Catalog (JDBC/Collections)
+
+        Shopping Cart & Order Processing
+
+        Payment Gateway Simulation
+
+        Tools: Git, Maven, JUnit, MySQL
+
+Programming with Python (30 Days)
+
+Objective: Develop proficiency in Python, scripting, and problem-solving.
+Module 1: Python Essentials
+
+    Syntax & Dynamic Typing
+
+    Core Data Structures (Lists, Tuples, Dicts, Sets)
+
+    Functions (Args/Kwargs, Recursion)
+
+    Error Handling (Try-Except-Finally)
+
+    Assignment: Weather Data Parser (JSON)
+
+Module 2: Object-Oriented Python
+
+    Classes vs. Instances
+
+    Inheritance & Method Resolution Order
+
+    Magic Methods (str, init)
+
+    Decorators (@property, @staticmethod)
+
+Module 3: Advanced Python Features
+
+    Generators (yield keyword)
+
+    Context Managers (with statement)
+
+    Regular Expressions (re module)
+
+    Assignment: Quiz Application
+
+Module 4: Scripting & Automation
+
+    OS Module (File/Directory Operations)
+
+    Web Scraping (BeautifulSoup, Requests)
+
+    Automation with Selenium
+
+    Assignment: Automated PDF/CSV Report Generator
+
+Module 5: Database Integration
+
+    SQLite/MySQL Connectivity (sqlite3/mysql-connector)
+
+    ORM with SQLAlchemy
+
+    Basic CRUD Operations
+
+Module 6: REST API Development
+
+    REST Principles (GET/POST/PUT/DELETE)
+
+    Flask Framework (Routes, Blueprints)
+
+    JSON Serialization/Deserialization
+
+    Assignment: Bookstore API
+
+Module 7: GUI Development
+
+    Tkinter Widgets (Buttons, Entries, Frames)
+
+    Event-Driven Programming
+
+    PyQt Basics (QWidgets, Signals/Slots)
+
+Module 8: Testing & Debugging
+
+    Unit Testing (pytest framework)
+
+    Test-Driven Development (TDD)
+
+    Debugging with pdb
+
+    Assignment: Budget Tracker GUI
+
+Module 9: Capstone Project
+
+    Hospital Management System
+
+        Patient Records (SQLite)
+
+        Appointment Scheduler
+
+        Data Visualization (Matplotlib)
+
+        Tools: Flask, SQLAlchemy, pytest
+
+Machine Learning with Python (30 Days)
+
+Objective: Implement ML algorithms and deploy predictive models.
+Module 1: Python for Data Science
+
+    NumPy Arrays & Operations
+
+    Pandas (DataFrames, Series, GroupBy)
+
+    Data Visualization (Matplotlib/Seaborn)
+
+    Assignment: Titanic Dataset EDA
+
+Module 2: Statistics for ML
+
+    Descriptive Statistics (Mean, Median, Variance)
+
+    Probability Distributions
+
+    Hypothesis Testing (p-value, t-test)
+
+Module 3: Supervised Learning I
+
+    Linear Regression (Cost Function, Gradient Descent)
+
+    Logistic Regression (Sigmoid Function)
+
+    Model Evaluation (Confusion Matrix, ROC-AUC)
+
+    Assignment: House Price Prediction
+
+Module 4: Supervised Learning II
+
+    Decision Trees (Entropy, Gini Index)
+
+    SVM (Kernels, Hyperparameter Tuning)
+
+    Ensemble Methods (Bagging vs. Boosting)
+
+    Assignment: Customer Churn Prediction
+
+Module 5: Unsupervised Learning
+
+    Clustering (K-Means, Hierarchical)
+
+    Dimensionality Reduction (PCA)
+
+    Anomaly Detection (Isolation Forest)
+
+    Assignment: Market Segmentation
+
+Module 6: Deep Learning Fundamentals
+
+    Neural Network Architecture (Layers, Activations)
+
+    TensorFlow/Keras Sequential API
+
+    Backpropagation & Optimization (Adam, SGD)
+
+Module 7: Natural Language Processing
+
+    Text Preprocessing (Tokenization, Stemming)
+
+    Feature Extraction (TF-IDF, Word2Vec)
+
+    Sentiment Analysis (RNNs/LSTMs)
+
+    Assignment: IMDB Review Classifier
+
+Module 8: Model Deployment
+
+    Flask API for Model Serving
+
+    Docker Containerization
+
+    Cloud Deployment (Heroku/AWS)
+
+Module 9: Capstone Project
+
+    Real-Time Crop Yield Predictor
+
+        Data Pipeline (Weather/Soil APIs)
+
+        Regression Model (XGBoost/TensorFlow)
+
+        Web Interface (Flask)
+
+        Tools: Scikit-learn, Heroku, Pandas
+
+Delivery & Support Structure (Summary)
+
+    Live Sessions: 2-hour daily lectures + weekend reviews
+
+    Resources: GitHub repos, Jupyter notebooks, LMS
+
+    Assessment: Assignments (30%), Capstone (50%), Peer Reviews (20%)
+
+    Post-Course: LinkedIn optimization, mock interviews, job placement
